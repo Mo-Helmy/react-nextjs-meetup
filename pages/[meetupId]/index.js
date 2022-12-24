@@ -9,7 +9,7 @@ const MeetupPage = ({ meetup }) => {
   return (
     <>
       <Head>
-        <title>{meetup.title}</title>
+        <title>{meetup?.title}</title>
         <meta name="description" content={meetup.description} />
       </Head>
       <MeetupDetails
